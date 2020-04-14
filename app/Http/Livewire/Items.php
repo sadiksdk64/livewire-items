@@ -14,7 +14,7 @@ class Items extends Component
 
     public function mount($items = null)
     {
-        $this->billItemCategories = ['one','two','three'];
+        $this->billItemCategories = ['General','High','Low'];
         
         if($items == null)
         {
